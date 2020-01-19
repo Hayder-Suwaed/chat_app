@@ -16,6 +16,7 @@
     "http-server": "^0.12.1"
   },
   "devDependencies": {
+    "module": "0.0.x",
     "babel-cli": "^6.26.0"
   }
 }
