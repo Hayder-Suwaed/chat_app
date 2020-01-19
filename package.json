@@ -1,0 +1,21 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "creating my fist socket Io application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Hayder Suwaed",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "nodemon": "^2.0.2",
+    "http-server": "^0.12.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
